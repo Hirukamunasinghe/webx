@@ -16,7 +16,7 @@ const Navbar =() =>{
                     <a href=""><li className="hover:text-purple-700 transition duration-2000 ease-in-out text-lg">CAREERS</li></a>
                 </ul>
             </div>
-            <div className="btnDiv mr-[60px] mt-[-10px]">
+            <div className="btnDiv mr-[60px] mt-[-12px]">
                 <Button color='text-black'>Reach Us</Button>
             </div>
         </nav>
