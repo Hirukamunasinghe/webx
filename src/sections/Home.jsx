@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-hero-pattern w-full h-[1200px]  mt-[-360px] bg-cover bg-no-repeat"></div>
+      <div className="bg-hero-pattern w-full h-[1200px]  mt-[-369px] bg-cover bg-no-repeat"></div>
       <div className="flex justify-center mt-[-780px]">
         {showText && (
           <h1 className="text-6xl text-customWhite font-bold typewriter-text">
