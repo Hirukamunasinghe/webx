@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../index.css"; // Import CSS file for styling
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const Technologies = () => {
   useEffect(() => {
@@ -20,7 +21,7 @@ const Technologies = () => {
         <h1 className="text-6xl text-center text-headingColor font-bold pb-[20px]">
           TECHNOLOGIES
         </h1>
-        <div className="logos grid grid-cols-4 place-items-center gap-[60px] mt-[50px]">
+        <div className="logos grid grid-cols-4 place-items-center gap-[80px] mt-[50px]">
           <img
             className="programming-logo h-[100px]"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
@@ -67,4 +68,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default withIntersectionObserver(Technologies);

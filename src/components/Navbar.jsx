@@ -23,7 +23,7 @@ const Navbar =() =>{
             </div>
             <div className="btnDiv mr-[60px] mt-[-12px]">
                 <Link to='/contact'>
-                <Button color='text-black'>Reach Us</Button>
+                <Button color='text-black'>REACH US</Button>
                 </Link>
             </div>
         </nav>

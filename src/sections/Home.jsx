@@ -3,6 +3,7 @@ import '../index.css'
 import Services from "./Services";
 import Technologies from "./Technologies";
 import ContactDisplay from "./ContactDisplay";
+import Footer from "./Footer";
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
         <Services/>
         <Technologies/>
         <ContactDisplay/>
+        <Footer/>
       </div>
     </div>
   );
