@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .typewriter-text {
     overflow: hidden; /* Ensures the text is initially hidden */
     border-right: .15em solid white; /* Cursor effect | */
@@ -22,4 +26,19 @@
     from, to { border-color: transparent }
     50% { border-color: white; }
   }
+
+  .programming-logo {
+    animation: rotateAnimation 8s linear infinite; /* Apply the rotate animation */
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    to {
+      transform: rotate(360deg); /* End rotation at 360 degrees */
+    }
+  }
+  
+  
   

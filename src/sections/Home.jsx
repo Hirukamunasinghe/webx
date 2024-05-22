@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import '../index.css'
+import Services from "./Services";
+import Technologies from "./Technologies";
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -13,7 +14,6 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar />
       <div className="bg-hero-pattern w-full h-[1200px]  mt-[-369px] bg-cover bg-no-repeat"></div>
       <div className="flex justify-center mt-[-780px]">
         {showText && (
@@ -21,6 +21,10 @@ const Home = () => {
             TRANSFORMING CONCEPTS INTO REALITY
           </h1>
         )}
+      </div>
+      <div className="mt-[720px]">
+        <Services/>
+        <Technologies/>
       </div>
     </div>
   );

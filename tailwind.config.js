@@ -11,7 +11,7 @@ export default {
         customWhite: '#FAF4F4',
         headingColor: '#310062',
         subColor: '#5704C1',
-
+        sectionBg: '#EAE6F5'
       },
       backgroundImage:{
         'hero-pattern': "url('/src/assets/backgroundimage.jpg')",
