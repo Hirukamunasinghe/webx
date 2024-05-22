@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import '../index.css'
 import Services from "./Services";
 import Technologies from "./Technologies";
+import ContactDisplay from "./ContactDisplay";
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -25,6 +26,7 @@ const Home = () => {
       <div className="mt-[720px]">
         <Services/>
         <Technologies/>
+        <ContactDisplay/>
       </div>
     </div>
   );
