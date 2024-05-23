@@ -123,7 +123,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="bg-customWhite">
+        <div className="bg-sectionBg">
             <Navbar />
             <AnimatedDesignProjects className="designProjects" />
             <AnimatedDevProjects className="devProjects" />
