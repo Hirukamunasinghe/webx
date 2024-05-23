@@ -37,4 +37,6 @@ const withIntersectionObserver = (WrappedComponent) => {
     };
 };
 
+
+
 export default withIntersectionObserver;

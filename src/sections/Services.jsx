@@ -4,6 +4,7 @@ import Development from "../assets/webdev.jpg";
 import Portfolio from "../assets/portfoliodev.jpg";
 import Button from "../components/Button";
 import withIntersectionObserver from "../components/withIntersectionObserver";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const AnimatedDesign = withIntersectionObserver(() => (
     <div className="design flex justify-center gap-[200px] border-2 border-customPurple p-[50px] w-[1800px]">
@@ -17,7 +18,9 @@ const AnimatedDesign = withIntersectionObserver(() => (
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
             in a crowded digital landscape. </p>
+            <Link to="/projects">
             <Button backgroundColor='bg-customPurple' color='text-white'>Our Work</Button>
+            </Link>
         </div>
     </div>
 ));

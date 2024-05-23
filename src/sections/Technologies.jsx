@@ -17,7 +17,7 @@ const Technologies = () => {
 
   return (
     <div id="tech">
-      <div className="tech-div bg-sectionBg pt-[100px]">
+      <div className="tech-div bg-sectionBg pt-[100px] pb-[15px]">
         <h1 className="text-6xl text-center text-headingColor font-bold pb-[20px]">
           TECHNOLOGIES
         </h1>
@@ -61,6 +61,26 @@ const Technologies = () => {
             className="programming-logo h-[100px]"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
             alt="Bootstrap"
+          />
+          <img
+            className="programming-logo h-[100px]"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+            alt="Figma"
+          />
+          <img
+            className="programming-logo h-[100px]"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
+            alt="Wordpress"
+          />
+          <img
+            className="programming-logo h-[100px]"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg"
+            alt="Firebase"
+          />
+          <img
+            className="programming-logo h-[100px]"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg"
+            alt="XD"
           />
         </div>
       </div>

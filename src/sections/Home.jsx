@@ -4,6 +4,7 @@ import Services from "./Services";
 import Technologies from "./Technologies";
 import ContactDisplay from "./ContactDisplay";
 import Footer from "./Footer";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -16,6 +17,7 @@ const Home = () => {
 
   return (
     <div>
+      <Navbar/>
       <div className="bg-hero-pattern w-full h-[1200px]  mt-[-369px] bg-cover bg-no-repeat"></div>
       <div className="flex justify-center mt-[-780px]">
         {showText && (
