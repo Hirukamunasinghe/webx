@@ -9,7 +9,7 @@ const Navbar =() =>{
     return(
         <nav className="flex relative justify-between h-[80px] bg-customPurple text-customWhite pt-[30px] z-10 w-full">
             <div className="logo-div">
-                <img src={Logo} className="h-[170px] mt-[-65px]"/>
+                <img src={Logo} className="h-[170px] mt-[-60px]"/>
             </div>
             <div className="listDiv">
                 <ul className="flex gap-[50px] font-bold ml-[140px]">

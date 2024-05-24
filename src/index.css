@@ -41,4 +41,6 @@ html {
   }
   
   
-  
+  .placeholder-white::placeholder {
+    color: white;
+}

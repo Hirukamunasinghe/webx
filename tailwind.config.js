@@ -15,6 +15,7 @@ export default {
       },
       backgroundImage:{
         'hero-pattern': "url('/src/assets/backgroundimage.jpg')",
+        'hero-contact': "url('/src/assets/contactuss.jpg')"
       },
       fontFamily:{
         'sans': ['Poppins', 'ui-sans-serif', 'system-ui'],
