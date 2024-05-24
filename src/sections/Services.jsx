@@ -37,7 +37,9 @@ const AnimatedDevelopment = withIntersectionObserver(() => (
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
             in a crowded digital landscape. </p>
+            <Link to="/projects">
             <Button backgroundColor='bg-customPurple' color='text-white'>Our Work</Button>
+            </Link>
         </div>
     </div>
 ));
@@ -54,7 +56,9 @@ const AnimatedPortfolio = withIntersectionObserver(() => (
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
             in a crowded digital landscape. </p>
+            <Link to="/projects">
             <Button backgroundColor='bg-customPurple' color='text-white'>Our Work</Button>
+            </Link>
         </div>
     </div>
 ));
