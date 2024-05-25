@@ -19,7 +19,7 @@ export default {
         sectionBg: '#EAE6F5'
       },
       backgroundImage:{
-        'hero-pattern': "url('/src/assets/backgroundimage.jpg')",
+        'hero-pattern': "url('/src/assets/backgroundimagetwo.png')",
         'hero-contact': "url('/src/assets/contactuss.jpg')"
       },
       fontFamily:{

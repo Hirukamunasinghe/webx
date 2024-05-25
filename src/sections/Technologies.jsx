@@ -21,7 +21,7 @@ const Technologies = () => {
         <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold pb-[20px]">
           TECHNOLOGIES
         </h1>
-        <div className="logos grid grid-cols-4 place-items-center gap-[50px] lg:gap-[80px] mt-[50px]">
+        <div className="logos grid grid-cols-3 lg:grid-cols-4 place-items-center gap-[50px] lg:gap-[80px] mt-[50px]">
           <img
             className="programming-logo h-[50px] lg:h-[100px]"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
