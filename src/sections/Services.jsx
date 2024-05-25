@@ -4,6 +4,7 @@ import Development from "../assets/webdev.jpg";
 import Portfolio from "../assets/portfoliodev.jpg";
 import Button from "../components/Button";
 import withIntersectionObserver from "../components/withIntersectionObserver";
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const AnimatedDesign = withIntersectionObserver(() => (
