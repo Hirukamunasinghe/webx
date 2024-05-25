@@ -11,7 +11,7 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
     <div className={className}>
-        <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">DESIGN PROJECTS</h1>
+        <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold mt-[20px]">DESIGN PROJECTS</h1>
         <div className="cards grid grid-cols-1 gap-[20px] lg:grid-cols-2 lg:gap-[0px] place-items-center mt-[50px]">
             <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
@@ -49,7 +49,7 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
 
 const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
     <div className="mt-[100px]">
-        <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">DEVELOPMENT PROJECTS</h1>
+        <h1 className=" text-4xl lg:text-6xl text-center text-headingColor font-bold mt-[20px]">DEVELOPMENT PROJECTS</h1>
         <div className="cards grid place-items-center grid-cols-1 gap-[20px] lg:grid-cols-2 lg:gap-[0px] mt-[50px]">
             <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
@@ -89,7 +89,7 @@ const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
 
 const AnimatedPortfolioProjects = withIntersectionObserver(({ className }) => (
     <div className="mt-[100px]">
-        <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">PORTFOLIO PROJECTS</h1>
+        <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold mt-[20px]">PORTFOLIO PROJECTS</h1>
         <div className="cards flex flex-col items-center pt-[40px] pb-[40px]">
             <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[800px] border-2 border-customPurple grid grid-rows-2 pb-[20px]">
                 <div className="imgDiv">
