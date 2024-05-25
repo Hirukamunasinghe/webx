@@ -91,7 +91,7 @@ const AnimatedPortfolio = withIntersectionObserver(() => (
 const Services = () => {
   return (
     <div id="services">
-      <div className="services-div pt-[50px] bg-sectionBg">
+      <div className="services-div  pt-[70px] bg-sectionBg">
         <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold pb-[20px]">SERVICES</h1>
         <div className="services grid place-items-center gap-10 lg:gap-[120px] mt-[50px]">
           <AnimatedDesign />
