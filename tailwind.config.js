@@ -11,6 +11,10 @@ export default {
       xl: "1440px",
     },
     extend: {
+      lineHeight:{
+        'loose':'55px',
+
+      },
       colors:{
         customPurple: '#A486F9',
         customWhite: '#FAF4F4',
