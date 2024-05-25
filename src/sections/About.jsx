@@ -37,7 +37,7 @@ const About =() =>{
                         </div>
                     </div>
                 </div>
-                <div className="mt-[56px]">
+                <div>
                 <Footer/>
                 </div>
             </div>

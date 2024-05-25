@@ -29,10 +29,10 @@ const Navbar = () => {
   return (
     <nav className="flex relative justify-between items-center h-[80px] bg-customPurple text-customWhite px-4 z-10 w-full">
       <div className="ml-[-15px] lg:ml-[0px]">
-        <img src={Logo} className="h-[150px] ml-[-10px] md:h-[90px] lg:h-[170px] pt-[20px]" alt="Logo" />
+        <img src={Logo} className="h-[150px] ml-[-10px] md:h-[150px] lg:h-[170px] pt-[20px]" alt="Logo" />
       </div>
       <div className="flex items-center">
-        {windowWidth >= 768 ? (
+        {windowWidth >= 769 ? (
           <ul className="flex gap-[50px] lg:ml-[80px] font-bold">
             <a href="#services">
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      {windowWidth >= 768 && (
+      {windowWidth >= 769 && (
         <div className="mr-4">
           <Link to='/contact'>
             <Button color='text-black'>REACH US</Button>

@@ -10,9 +10,9 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () =>{
     return (
-        <div>
-            <div className="bg-customPurple h-[160px]">
-                <div className="icons flex justify-center gap-[50px] pt-[20px] pb-[20px] ">
+        <footer>
+            <div className="bg-customPurple h-[168px]">
+                <div className="icons flex justify-center gap-[50px]  pt-[20px] pb-[20px] ">
                     <a href=""><FontAwesomeIcon icon={faInstagram} className="h-[30px] text-yellow-200"/></a>
                     <a href=""><FontAwesomeIcon icon={faFacebookSquare} className="h-[30px] text-blue-700"/></a>
                     <a href=""><FontAwesomeIcon icon={faYoutube} className="h-[30px] text-red-500"/></a>
@@ -21,10 +21,10 @@ const Footer = () =>{
                 <div className="flex justify-center">
                 <p className="flex gap-[10px] text-gray-300 pb-[20px]"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
                 </div>
-                <p className="text-customWhite  text-center">Copyright <FontAwesomeIcon icon={faCopyright}/> 2024 All Rights Reserved. Site by WebX</p>
+                <p className="text-customWhite  text-center">Copyright <FontAwesomeIcon icon={faCopyright}/> 2024 All Rights Reserved<br/> Site by WebX</p>
             </div>
             
-        </div>
+        </footer>
     )
 }
 
