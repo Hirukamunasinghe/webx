@@ -8,9 +8,9 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const AnimatedDesign = withIntersectionObserver(() => (
-    <div className="design flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 border-customPurple p-5 lg:p-[50px] w-[350px] lg:w-[1800px]">
+    <div className="design flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 border-customPurple p-5 lg:p-[50px] w-[350px] md:w-[700px] lg:w-[1800px]">
         <div className="design-image">
-            <img src={Design} className="h-[200px]  lg:h-[500px] rounded-md"/>
+            <img src={Design} className="h-[200px] md:h-[400px]  lg:h-[500px] rounded-md"/>
         </div>
         <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
             <h1 className="text-3xl lg:text-5xl font-bold text-subColor">WEB DESIGN</h1>
@@ -27,9 +27,9 @@ const AnimatedDesign = withIntersectionObserver(() => (
 ));
 
 const AnimatedDevelopment = withIntersectionObserver(() => (
-    <div className="develop flex flex-col lg:flex-row-reverse justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] lg:w-[1800px]">
+    <div className="develop flex flex-col lg:flex-row-reverse justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] md:w-[700px] lg:w-[1800px]">
         <div className="design-image">
-            <img src={Development} className="h-[200px] lg:h-[500px] ml-0 lg:ml-[50px] rounded-md"/>
+            <img src={Development} className="h-[200px] md:h-[400px] lg:h-[500px] ml-0 lg:ml-[50px] rounded-md"/>
         </div>
         <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
             <h1 className="text-3xl lg:text-5xl text-subColor font-bold">WEB DEVELOPMENT</h1>
@@ -46,9 +46,9 @@ const AnimatedDevelopment = withIntersectionObserver(() => (
 ));
 
 const AnimatedPortfolio = withIntersectionObserver(() => (
-    <div className="portfolio flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] lg:w-[1800px]">
+    <div className="portfolio flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] md:w-[700px] lg:w-[1800px]">
         <div className="design-image">
-            <img src={Portfolio} className="h-[200px] lg:h-[500px] rounded-md"/>
+            <img src={Portfolio} className="h-[200px] md:h-[400px] lg:h-[500px] rounded-md"/>
         </div>
         <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
             <h1 className="text-3xl lg:text-5xl font-bold text-subColor">PORTFOLIO DEVELOPMENT</h1>
