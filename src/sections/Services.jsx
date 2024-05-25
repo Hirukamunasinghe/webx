@@ -7,13 +7,13 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const AnimatedDesign = withIntersectionObserver(() => (
-    <div className="design flex justify-center gap-[200px] border-2 border-customPurple p-[50px] w-[1800px]">
+    <div className="design flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 border-customPurple p-5 lg:p-[50px] w-full lg:w-[1800px]">
         <div className="design-image">
-            <img src={Design} className="h-[500px] rounded-md "/>
+            <img src={Design} className="h-[400px]  lg:h-[500px] rounded-md"/>
         </div>
-        <div className="textContent flex flex-col gap-[80px]">
-            <h1 className="text-5xl font-bold text-subColor">WEB DESIGN</h1>
-            <p className="text-customPurple  leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
+        <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
+            <h1 className="text-3xl lg:text-5xl font-bold text-subColor">WEB DESIGN</h1>
+            <p className="text-customPurple leading-6 lg:leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
             and user-centric websites that not only look beautiful but also function<br/>
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
@@ -26,13 +26,13 @@ const AnimatedDesign = withIntersectionObserver(() => (
 ));
 
 const AnimatedDevelopment = withIntersectionObserver(() => (
-    <div className="develop flex flex-row-reverse justify-center gap-[200px] border-2 rounded-md border-customPurple p-[50px] w-[1800px]">
+    <div className="develop flex flex-col lg:flex-row-reverse justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-full lg:w-[1800px]">
         <div className="design-image">
-            <img src={Development} className="h-[500px] ml-[50px] rounded-md "/>
+            <img src={Development} className="h-[400px] lg:h-[500px] ml-0 lg:ml-[50px] rounded-md"/>
         </div>
-        <div className="textContent flex flex-col gap-[80px]">
-            <h1 className="text-5xl text-subColor font-bold">WEB DEVELOPMENT</h1>
-            <p className="text-customPurple leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
+        <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
+            <h1 className="text-3xl lg:text-5xl text-subColor font-bold">WEB DEVELOPMENT</h1>
+            <p className="text-customPurple leading-6 lg:leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
             and user-centric websites that not only look beautiful but also function<br/>
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
@@ -45,13 +45,13 @@ const AnimatedDevelopment = withIntersectionObserver(() => (
 ));
 
 const AnimatedPortfolio = withIntersectionObserver(() => (
-    <div className="portfolio flex justify-center gap-[200px] border-2 rounded-md border-customPurple p-[50px] w-[1800px]">
+    <div className="portfolio flex flex-col lg:flex-row justify-center gap-5 lg:gap-[200px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-full lg:w-[1800px]">
         <div className="design-image">
-            <img src={Portfolio} className="h-[500px] rounded-md"/>
+            <img src={Portfolio} className="h-[400px] lg:h-[500px] rounded-md"/>
         </div>
-        <div className="textContent flex flex-col gap-[80px]">
-            <h1 className="text-5xl font-bold text-subColor">PORTFOLIO DEVELOPMENT</h1>
-            <p className="text-customPurple leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
+        <div className="textContent flex flex-col gap-5 lg:gap-[80px]">
+            <h1 className="text-3xl lg:text-5xl font-bold text-subColor">PORTFOLIO DEVELOPMENT</h1>
+            <p className="text-customPurple leading-6 lg:leading-10">At [Your Company Name], we specialize in creating visually stunning<br/>
             and user-centric websites that not only look beautiful but also function<br/>
             seamlessly. Our web design services are tailored to meet the unique<br/>
             needs of your business, ensuring that your online presence stands out<br/>
@@ -67,8 +67,8 @@ const Services = () => {
     return (
         <div id="services">
             <div className="services-div pt-[50px] bg-sectionBg ">
-                <h1 className="text-6xl text-center text-headingColor font-bold pb-[20px]">SERVICES</h1>
-                <div className="services grid place-items-center gap-[120px] mt-[50px]">
+                <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold pb-[20px]">SERVICES</h1>
+                <div className="services grid place-items-center gap-10 lg:gap-[120px] mt-[50px]">
                     <AnimatedDesign />
                     <AnimatedDevelopment />
                     <AnimatedPortfolio />

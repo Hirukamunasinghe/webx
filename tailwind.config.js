@@ -5,6 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      md: "768px",
+      lg: "1200px",
+      xl: "1440px",
+    },
     extend: {
       colors:{
         customPurple: '#A486F9',

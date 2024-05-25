@@ -12,8 +12,8 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
     <div className={className}>
         <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">DESIGN PROJECTS</h1>
-        <div className="cards grid grid-cols-2 place-items-center mt-[50px]">
-            <div className="descard rounded-md bg-customWhite h-[600px] w-[600px] border-2 border-customPurple grid grid-rows-2">
+        <div className="cards grid grid-cols-1 gap-[20px] lg:grid-cols-2 lg:gap-[0px] place-items-center mt-[50px]">
+            <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
                     <img src={imageone} className="rounded-md"/>
                 </div>
@@ -28,7 +28,7 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
                     </div>
                 </div>
             </div>
-            <div className="descard rounded-md bg-customWhite h-[600px] w-[600px] border-2 border-customPurple grid grid-rows-2">
+            <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
                     <img src={imagetwo} className="rounded-md"/>
                 </div>
@@ -50,8 +50,8 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
 const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
     <div className="mt-[100px]">
         <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">DEVELOPMENT PROJECTS</h1>
-        <div className="cards grid grid-cols-2 place-items-center mt-[50px]">
-            <div className="descard rounded-md bg-customWhite h-[600px] w-[600px] border-2 border-customPurple grid grid-rows-2">
+        <div className="cards grid place-items-center grid-cols-1 gap-[20px] lg:grid-cols-2 lg:gap-[0px] mt-[50px]">
+            <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
                     <img src={imagethree} className="rounded-md h-[400px]"/>
                 </div>
@@ -67,7 +67,7 @@ const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
                     </div>
                 </div>
             </div>
-            <div className="descard rounded-md bg-customWhite h-[600px] w-[600px] border-2 border-customPurple grid grid-rows-2">
+            <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[600px] border-2 border-customPurple grid grid-rows-2">
                 <div className="imgDiv">
                     <img src={imagefour} className="rounded-md"/>
                 </div>
@@ -91,16 +91,16 @@ const AnimatedPortfolioProjects = withIntersectionObserver(({ className }) => (
     <div className="mt-[100px]">
         <h1 className="text-6xl text-center text-headingColor font-bold mt-[20px]">PORTFOLIO PROJECTS</h1>
         <div className="cards flex flex-col items-center pt-[40px] pb-[40px]">
-            <div className="descard rounded-md bg-customWhite h-[600px] w-[800px] border-2 border-customPurple grid grid-rows-2 pb-[20px]">
+            <div className="descard rounded-md bg-customWhite h-[600px] w-[350px] lg:w-[800px] border-2 border-customPurple grid grid-rows-2 pb-[20px]">
                 <div className="imgDiv">
                     <img src={imagefive} className="rounded-md"/>
                 </div>
                 <div className="textDiv flex flex-col gap-[20px]">
                     <div className="flex justify-center gap-[50px] mt-[20px]">
-                        <img className="h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
-                        <img className="h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
-                        <img className="h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-                        <img className="h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
+                        <img className="h-[40px] lg:h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+                        <img className="h-[40px] lg:h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+                        <img className="h-[40px] lg:h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+                        <img className="h-[40px] lg:h-[60px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
                     </div>
                     <div className="text-center">
                         <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>PORTFOLIO</Button>

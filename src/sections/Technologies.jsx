@@ -18,7 +18,7 @@ const Technologies = () => {
   return (
     <div id="tech">
       <div className="tech-div bg-sectionBg pt-[100px] pb-[15px]">
-        <h1 className="text-6xl text-center text-headingColor font-bold pb-[20px]">
+        <h1 className="text-xl lg:text-6xl text-center text-headingColor font-bold pb-[20px]">
           TECHNOLOGIES
         </h1>
         <div className="logos grid grid-cols-4 place-items-center gap-[80px] mt-[50px]">

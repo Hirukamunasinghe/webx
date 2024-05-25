@@ -1,34 +1,93 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Button from "./Button";
-import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
-import Logo from '../assets/webxlogo.png'
+import Logo from '../assets/webxlogo.png';
+import Toggle from '../assets/toggle.png';
 
+const Navbar = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [showLinks, setShowLinks] = useState(false);
+  const [toggleActive, setToggleActive] = useState(false);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
 
-const Navbar =() =>{
-    return(
-        <nav className="flex relative justify-between h-[80px] bg-customPurple text-customWhite pt-[30px] z-10 w-full">
-            <div className="logo-div">
-                <img src={Logo} className="h-[170px] mt-[-60px]"/>
-            </div>
-            <div className="listDiv">
-                <ul className="flex gap-[50px] font-bold ml-[140px]">
-                    <a href="#services"><li className="hover:text-purple-700 transition duration-2000 ease-in-out text-lg">SERVICES</li></a>
-                    <Link to='/about'>
-                    <a href=""><li className="hover:text-purple-700 transition duration-2000 ease-in-out text-lg">ABOUT US</li></a>
-                    </Link>
-                    <a href="#tech"><li className="hover:text-purple-700 transition duration-2000 ease-in-out text-lg">TECHNOLOGIES</li></a>
-                    <a href=""><li className="hover:text-purple-700 transition duration-2000 ease-in-out text-lg">CAREERS</li></a>
-                </ul>
-            </div>
-            <div className="btnDiv mr-[60px] mt-[-12px]">
-                <Link to='/contact'>
-                <Button color='text-black'>REACH US</Button>
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+    setToggleActive(!toggleActive);
+  };
+
+  return (
+    <nav className="flex relative justify-between items-center h-[80px] bg-customPurple text-customWhite px-4 z-10 w-full">
+      <div className="flex items-center">
+        <img src={Logo} className="h-[100px] md:h-[70px] lg:h-[150px] pt-[20px]" alt="Logo" />
+      </div>
+      <div className="flex items-center">
+        {windowWidth >= 768 ? (
+          <ul className="flex gap-6 font-bold">
+            <a href="#services">
+              <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
+            </a>
+            <Link to='/about'>
+              <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
+            </Link>
+            <a href="#tech">
+              <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>
+            </a>
+            <a href="#">
+              <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">CAREERS</li>
+            </a>
+          </ul>
+        ) : (
+          <div className="flex items-center">
+            <img 
+              className='h-[25px] cursor-pointer' 
+              onClick={toggleLinks} 
+              src={Toggle} 
+              alt='Toggle' 
+              width={30} 
+              height={30}
+            />
+            {showLinks && (
+              <ul className='flex flex-col items-center gap-6 absolute left-0 top-[80px] w-full bg-customPurple py-4'>
+                <a href="#services">
+                  <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
+                </a>
+                <Link to='/about'>
+                  <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
                 </Link>
-            </div>
-        </nav>
-    )
-
-}
+                <a href="#tech">
+                  <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>
+                </a>
+                <a href="#">
+                  <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">CAREERS</li>
+                </a>
+                <Link to='/contact'>
+                  <Button color='text-black'>REACH US</Button>
+                </Link>
+              </ul>
+            )}
+          </div>
+        )}
+      </div>
+      {windowWidth >= 768 && (
+        <div className="mr-4">
+          <Link to='/contact'>
+            <Button color='text-black'>REACH US</Button>
+          </Link>
+        </div>
+      )}
+    </nav>
+  );
+};
 
 export default Navbar;

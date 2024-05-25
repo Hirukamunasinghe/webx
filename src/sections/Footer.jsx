@@ -10,7 +10,7 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 const Footer = () =>{
     return (
         <div>
-            <div className="bg-customPurple h-[117px]">
+            <div className="bg-customPurple h-[125px]">
                 <div className="icons flex justify-center gap-[50px] pt-[20px] pb-[20px]">
                     <a href=""><FontAwesomeIcon icon={faInstagram} className="h-[30px] text-yellow-200"/></a>
                     <a href=""><FontAwesomeIcon icon={faFacebook} className="h-[30px] text-blue-600"/></a>
