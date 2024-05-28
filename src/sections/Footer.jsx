@@ -19,7 +19,7 @@ const Footer = () =>{
                     <a href=""><FontAwesomeIcon icon={faTwitter} className="h-[30px] text-blue-500"/></a>
                 </div>
                 <div className="flex justify-center">
-                <p className="flex gap-[10px] text-gray-300 pb-[20px]"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
+                <p className="flex gap-[10px]  pb-[20px]  text-white"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
                 </div>
                 <p className="text-customWhite  text-center">Copyright <FontAwesomeIcon icon={faCopyright}/> 2024 All Rights Reserved<br/> Site by WebX</p>
             </div>
