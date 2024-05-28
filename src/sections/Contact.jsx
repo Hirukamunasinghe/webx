@@ -19,7 +19,13 @@ const Contact = () => {
 
         console.log("Sender's name:", senderName); // Debugging: Log the sender's name
 
-        emailjs.sendForm('service_o8rkhts', 'template_uwuzfsq', e.target, 'ZsGptO9Av7g-Jv4Ch')
+        const templateParams = {
+            from_name: senderName,
+            to_name: "Recipient", // You can specify the recipient's name here if needed
+            message: message.value
+        };
+
+        emailjs.send('service_o8rkhts', 'template_uwuzfsq', templateParams, 'ZsGptO9Av7g-Jv4Ch')
             .then((result) => {
                 console.log(result.text);
                 alert("Message sent successfully!");
