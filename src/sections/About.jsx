@@ -82,7 +82,7 @@ const About = () => {
             <h3 className="text-headingColor leading-7  lg:leading-9 text-sm md:text-lg lg:text-lg md:text-center text-left lg:text-left">Please get in touch with us by phone or email<br/> if you need assistance or if you are experiencing<br/>  any issues with the website.<br/> We are happy to help you 24/7.</h3>
             <div className="flex flex-col items-start md:items-center lg:items-start">
             <p className="flex gap-[10px]   pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
-            <p className="flex gap-[10px]  pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faEnvelope}/> | munasinghehiruka@gmail.com</p>
+            <p className="flex gap-[10px]  pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faEnvelope}/> | webxsolutions12@gmail.com</p>
             </div>
         </div>
       </div>
