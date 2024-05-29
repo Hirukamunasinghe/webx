@@ -16,8 +16,8 @@ const Technologies = () => {
   }, []); // Empty dependency array means this effect runs once after the initial render
 
   return (
-    <div id="tech">
-      <div className="tech-div bg-sectionBg pt-[100px] pb-[15px]">
+    <div>
+      <div id="tech" className="tech-div bg-sectionBg pt-[100px] pb-[15px]">
         <h1 className="text-4xl lg:text-6xl text-center text-headingColor font-bold pb-[20px]">
           TECHNOLOGIES
         </h1>

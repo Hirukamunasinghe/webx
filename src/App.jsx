@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import About from './sections/About';
 import Projects from './sections/Projects';
 
+
 function App() {
   const [count, setCount] = useState(0);
 
