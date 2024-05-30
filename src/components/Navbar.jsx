@@ -34,13 +34,13 @@ const Navbar = () => {
       <div className="flex items-center">
         {windowWidth >= 769 ? (
           <ul className="flex gap-[50px] lg:ml-[80px] font-bold">
-            <a href='/webx#services'>
+            <a href='#services'>
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
             </a>
             <Link to='/about'>
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
             </Link>
-            <a href="/webx#tech">
+            <a href="#tech">
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>
             </a>
             <Link to='/projects'>
@@ -59,13 +59,13 @@ const Navbar = () => {
             />
             {showLinks && (
               <ul className='flex flex-col items-center gap-6 absolute left-0 top-[80px] w-full bg-customPurple py-4'>
-                <a href='/webx#services'>
+                <a href='#services'>
                   <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
                 </a>
                 <Link to='/about'>
                   <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
                 </Link>
-                <a href="/webx#tech">
+                <a href="#tech">
                   <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>
                 </a>
                 <Link to="/projects">
