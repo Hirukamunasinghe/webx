@@ -2,7 +2,7 @@
   "name": "webx",
   "private": true,
   "version": "0.0.0",
-
+  "homepage": "https://hirukamunasinghe.github.io/webx/",
   "type": "module",
   "scripts": {
     "dev": "vite",
