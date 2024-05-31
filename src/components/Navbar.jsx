@@ -34,13 +34,13 @@ const Navbar = () => {
       <div className="flex items-center">
         {windowWidth >= 769 ? (
           <ul className="flex gap-[50px] lg:ml-[80px] font-bold">
-            <a href='#services'>
+            <a href='/webx/#services'>
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
             </a>
             <Link to='/about'>
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
             </Link>
-            <a href="#tech">
+            <a href="/webx/#tech">
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>
             </a>
             <Link to='/projects'>
