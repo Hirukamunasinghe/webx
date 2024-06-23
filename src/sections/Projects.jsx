@@ -24,7 +24,7 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
                         <img className="h-[50px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"/>
                     </div>
                     <div className="text-center">
-                        <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>HUDDLE LANDING PAGE</Button>
+                        <a href="https://hirukamunasinghe.github.io/huddle-landing-page/"><Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>HUDDLE LANDING PAGE</Button></a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
                         <img className="h-[50px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"/>
                     </div>
                     <div className="text-center">
-                        <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>CLIPBOARD LANDING PAGE</Button>
+                        <a href="https://hirukamunasinghe.github.io/clipboard-landing-page/"><Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>CLIPBOARD LANDING PAGE</Button></a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
                         <img className="h-[40px] lg:h-[50px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
                     </div>
                     <div className="text-center">
-                        <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>PROPERTIES WEBSITE</Button>
+                        <a href="https://hirukamunasinghe.github.io/properties-website/"><Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>PROPERTIES WEBSITE</Button></a>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ const AnimatedDevProjects = withIntersectionObserver(({ className }) => (
                         <img className="h-[40px] lg:h-[50px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
                     </div>
                     <div className="text-center">
-                        <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>ADVICE GENERATOR</Button>
+                        <a href="https://hirukamunasinghe.github.io/advice-generator-application/"><Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>ADVICE GENERATOR</Button></a>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@ const AnimatedPortfolioProjects = withIntersectionObserver(({ className }) => (
                         <img className="h-[40px] lg:h-[50px] mt-[150px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
                     </div>
                     <div className="text-center">
-                        <Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>PORTFOLIO</Button>
+                        <a href="https://hirukamunasinghe.github.io/portfolio-new/"><Button backgroundColor='bg-customPurple' color='text-white' width='w-[250px]'>PORTFOLIO</Button></a>
                     </div>
                 </div>
             </div>
