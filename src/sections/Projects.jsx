@@ -16,7 +16,7 @@ const AnimatedDesignProjects = withIntersectionObserver(({ className }) => (
     <div className="cards flex flex-col items-center pt-[40px] pb-[40px]">
         <div className="descard rounded-md bg-customWhite h-[400px] lg:h-[600px] w-[350px] lg:w-[800px] border-2 border-customPurple grid grid-rows-2 pb-[20px]">
             <div className="imgDiv">
-                <img src={agasthi} className="rounded-md  lg:h-[420px]"/>
+                <img src={agasthi} className="rounded-md h-[190px]  lg:h-[420px] "/>
             </div>
             <div className="textDiv flex flex-col gap-[20px] mt-[-100px] lg:mt-[-0px]">
                 <div className="flex justify-center gap-[50px] mt-[20px]">
