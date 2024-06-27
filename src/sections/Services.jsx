@@ -18,7 +18,7 @@ const AnimatedDesign = withIntersectionObserver(() => (
       <h1 className="text-3xl lg:text-5xl font-bold text-subColor">
         WEB DESIGN
       </h1>
-      <p className="text-customPurple text-sm lg:text-md md:text-lg font-bold leading-5 lg:leading-10">
+      <p className="text-headingColor text-sm lg:text-md md:text-lg font-bold leading-5 lg:leading-10">
         At WebX, we deliver web design services that fuse captivating aesthetics
         <br />
         with flawless functionality. Our mission is to craft websites that not
@@ -52,7 +52,7 @@ const AnimatedDevelopment = withIntersectionObserver(() => (
       <h1 className="text-3xl lg:text-5xl text-subColor font-bold">
         WEB DEVELOPMENT
       </h1>
-      <p className="text-customPurple text-sm lg:text-lg md:text-lg font-bold leading-6 lg:leading-10">
+      <p className="text-headingColor text-sm lg:text-lg md:text-lg font-bold leading-6 lg:leading-10">
         At WebX, we offer web development services that combine innovative
         <br /> technology with user-focused design. Our goal is to build
         websites
@@ -84,7 +84,7 @@ const AnimatedPortfolio = withIntersectionObserver(() => (
       <h1 className="text-3xl lg:text-5xl font-bold text-subColor">
         PORTFOLIO DEVELOPMENT
       </h1>
-      <p className="text-customPurple text-sm lg:text-lg md:text-lg font-bold leading-6 lg:leading-10">
+      <p className="text-headingColor text-sm lg:text-lg md:text-lg font-bold leading-6 lg:leading-10">
         At WebX, we specialize in crafting visually striking
         <br />
         and user-friendly portfolio websites that not only showcase your work
