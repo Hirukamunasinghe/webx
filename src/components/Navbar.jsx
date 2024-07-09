@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Button from "./Button";
-import Logo from '../assets/webxlogo.png';
+import Logo from '../assets/webxspherelogo.png';
 import Toggle from '../assets/toggle.png';
 
 const Navbar = () => {
