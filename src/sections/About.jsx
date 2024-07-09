@@ -33,7 +33,7 @@ const About = () => {
                   WE ARE WEB DEVELOPERS
                 </h1>
                 <p className="text-sm lg:text-lg  leading-10 lg:leading-10 text-headingColor font-bold">
-                  WEBX, established in 2024 by Hiruka Munasinghe and Abhiru
+                  Established in 2024 by Hiruka Munasinghe and Abhiru
                   Wickramarachchi.
                   <br />
                   Alongside our core services in design and development, we have

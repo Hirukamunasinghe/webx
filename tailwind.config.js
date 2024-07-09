@@ -23,9 +23,9 @@ export default {
         sectionBg: '#EAE6F5'
       },
       backgroundImage:{
-        'hero-pattern': "url('/src/assets/backgroundimagetwo.png')",
+        'hero-pattern': "url('/src/assets/webxsphere-bg.png')",
         'hero-contact': "url('/src/assets/contactuss.jpg')",
-        'about-logo':"url('/src/assets/webxbluelogo.png')"
+        'about-logo':"url('/src/assets/webxsphere-logo.png')"
       },
       fontFamily:{
         'sans': ['Poppins', 'ui-sans-serif', 'system-ui'],
