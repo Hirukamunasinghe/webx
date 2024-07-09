@@ -53,7 +53,7 @@ const About = () => {
                   individuals to enhance their prospects and confidence when
                   pursuing career
                   <br />
-                  opportunities in software engineering and web development.
+                  opportunities in any professional industry.
                 </p>
                 <div className="text-center lg:text-left">
                 <Link to="/contact">
