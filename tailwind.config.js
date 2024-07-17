@@ -13,7 +13,6 @@ export default {
     extend: {
       lineHeight:{
         'loose':'55px',
-
       },
       colors:{
         customPurple: '#A486F9',
@@ -23,7 +22,7 @@ export default {
         sectionBg: '#EAE6F5'
       },
       backgroundImage:{
-        'hero-pattern': "url('/src/assets/webxsphere-bg.png')",
+        'hero-pattern': "url('/src/assets/webxsphere-bgtestone.png')",
         'hero-contact': "url('/src/assets/contactuss.jpg')",
         'about-logo':"url('/src/assets/webxsphere-logo.png')"
       },

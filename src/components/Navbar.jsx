@@ -39,7 +39,7 @@ const Navbar = () => {
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">SERVICES</li>
             </a>
             <Link to='/about'>
-              <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">ABOUT US</li>
+              <li className="hover:text-purple-700  transition duration-200 ease-in-out text-lg">ABOUT US</li>
             </Link>
             <a href="/webx/#tech">
               <li className="hover:text-purple-700 transition duration-200 ease-in-out text-lg">TECHNOLOGIES</li>

@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col items-center">
-      <div className="detailsDiv w-[340px] flex flex-col gap-[50px]  text-center items-center text-center mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-[2000px] lg:justify-center lg:flex-row lg:gap-[80px] ml-[0px] lg:ml-[120px]">
+      <div className="detailsDiv w-[340px] flex flex-col gap-[50px]  text-center items-center text-center mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
         <div className="delivery lg:text-left flex flex-col items-start md:items-center gap-[20px] lg: mt-[-90px]">
             <h1 className="text-5xl font-bold text-subColor lg:text-left lg:mr-[270px] md:text-center">Delivery</h1>
             <h3 className="text-headingColor leading-7  lg:leading-9 text-sm md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h3>

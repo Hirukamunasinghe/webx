@@ -7,7 +7,7 @@ const Button = ({ children, backgroundColor, width, color, border }) => {
     const buttonBackgroundColor = backgroundColor ? backgroundColor : defaultBackgroundColor;
 
     // Default width
-    const defaultWidth = "w-48";
+    const defaultWidth = "w-[200px]";
     const buttonWidth = width ? width : defaultWidth;
 
     // Default Color
@@ -19,7 +19,7 @@ const Button = ({ children, backgroundColor, width, color, border }) => {
     const borderColor = border ? border : defaultBorder;
 
     return (
-        <button className={`h-12 rounded-md font-bold ${buttonBackgroundColor} ${buttonWidth} ${buttonColor} ${borderColor} hover:text-white hover:bg-purple-500 transition duration-2000 ease-in-out`}>
+        <button className={`h-11 rounded-md font-bold ${buttonBackgroundColor} ${buttonWidth} ${buttonColor} ${borderColor} hover:text-white hover:bg-purple-500 transition duration-2000 ease-in-out`}>
             {children}
         </button>
     );

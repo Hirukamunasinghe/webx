@@ -20,13 +20,13 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <div className="bg-hero-pattern w-full h-[290px] lg:h-[1200px] md:h-[580px] lg:mt-[-369px] bg-cover bg-no-repeat"></div>
-      <div className="flex justify-center mt-[-270px] md:mt-[-480px] lg:mt-[-780px] sm:mt-[-300px]">
-        <div className={`text-sm md:text-2xl lg:text-6xl text-left lg:text-center lg:pt-[0px] text-customWhite font-bold typewriter-text transition-opacity duration-1000 ${showText ? 'opacity-100' : 'opacity-0'}`}>
+      <div className="bg-hero-pattern w-full h-[290px] lg:h-[1080px] md:h-[580px] lg:mt-[-385px] bg-cover bg-no-repeat"></div>
+      <div className="flex justify-center mt-[-270px] md:mt-[-480px] lg:mt-[-670px] sm:mt-[-300px]">
+        <div className={`text-sm md:text-2xl lg:text-5xl text-left lg:text-center lg:pt-[0px] text-customWhite font-bold typewriter-text transition-opacity duration-1000 ${showText ? 'opacity-100' : 'opacity-0'}`}>
           TRANSFORMING CONCEPTS INTO REALITY
         </div>
       </div>
-      <div className="md:mt-[420px] lg:mt-[720px] mt-[230px]">
+      <div className="md:mt-[420px] lg:mt-[600px] mt-[230px]">
         <Services/>
         <Technologies/>
         <ContactDisplay/>
