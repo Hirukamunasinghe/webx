@@ -87,15 +87,15 @@ const AnimatedPortfolio = withIntersectionObserver(() => (
       <p className="text-headingColor text-sm lg:text-lg md:text-lg font-bold leading-6 lg:leading-10">
         We specialize in crafting visually striking
         <br />
-        and user-friendly portfolio websites that not only showcase your work
+        and user-friendly portfolio websites that not only showcase<br/> your work
         but also
         
         function seamlessly.<br/> Our portfolio site development services are
         tailored to meet
         <br />
-        the unique needs of your brand, ensuring that your online portfolio
+        the unique needs of your brand, ensuring that your<br/> online portfolio
         stands out
-        <br />
+
         in a crowded digital landscape.
       </p>
       <Link to="/projects">
