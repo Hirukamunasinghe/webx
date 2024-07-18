@@ -22,9 +22,9 @@ export default {
         sectionBg: '#EAE6F5'
       },
       backgroundImage:{
-        'hero-pattern': "url('/src/assets/webxsphere-bgtestone.png')",
+        'hero-pattern': "url('/src/assets/webxtest.png')",
         'hero-contact': "url('/src/assets/contactuss.jpg')",
-        'about-logo':"url('/src/assets/webxsphere-logo.png')"
+        'about-logo':"url('/src/assets/aboutlogo.png')"
       },
       fontFamily:{
         'sans': ['Poppins', 'ui-sans-serif', 'system-ui'],

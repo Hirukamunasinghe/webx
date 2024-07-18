@@ -21,7 +21,7 @@ const Footer = () =>{
                 <div className="flex justify-center">
                 <p className="flex gap-[10px]  pb-[20px]  text-white"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
                 </div>
-                <p className="text-customWhite  text-center">Copyright <FontAwesomeIcon icon={faCopyright}/> 2024 All Rights Reserved<br/> Site by WebX</p>
+                <p className="text-customWhite  text-center">Copyright <FontAwesomeIcon icon={faCopyright}/> 2024 All Rights Reserved<br/> Site by Hiruka Munasinghe</p>
             </div>
         </footer>
     )
