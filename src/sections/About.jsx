@@ -19,14 +19,14 @@ const About = () => {
           {/* heading div2 */}
           {/* heading div */}
           <div className="headingintro flex gap-[10px]">
-            <h1 className="text-7xl text-subColor font-bold">HELLO!</h1>
-            <img src={wave} className="h-[75px]" />
+            <h1 className="text-6xl text-subColor font-bold">HELLO!</h1>
+            <img src={wave} className="h-[60px]" />
           </div>
           {/* story card div */}
-          <div className="introdiv border-2 p-[10px] mt-[20px] md:mt-[30px] lg:mt-[30px] mb-[10px] lg:mb-[0px] md:mb-[0px] lg:p-[20px] rounded-md border-customPurple w-[350px] lg:w-[1400px] md:w-[700px] md:h-[1000px] h-full lg:h-[650px]">
+          <div className="introdiv border-2 p-[10px] mt-[20px] md:mt-[30px] lg:mt-[30px] mb-[10px] lg:mb-[0px] md:mb-[0px] lg:p-[20px] rounded-md border-customPurple w-[320px] lg:w-[1400px] md:w-[700px] md:h-[1000px] h-full lg:h-[650px]">
             <div className="storymainDiv flex flex-col items-center  lg:flex-row lg:justify-between mt-[50px] lg:ml-[20px]">
             {/* bg image */}
-              <div className=" lg:mt-[20px] mt-[-60px] md:w-[700px] md:h-[500px] rounded-md bg-about-logo bg-cover bg-no-repeat w-[350px] lg:w-[450px] lg:h-[400px] h-[350px]"></div>
+              <div className=" lg:mt-[20px] mt-[-60px] md:w-[700px] md:h-[500px] rounded-md bg-about-logo bg-cover bg-no-repeat w-[320px] lg:w-[450px] lg:h-[400px] h-[350px]"></div>
             {/* text  */}
               <div className="outro flex flex-col gap-[20px] pt-[20px] lg:ml-[100px]">
                 <h1 className="text-2xl md:text-3xl font-bold lg:text-4xl text-purple-800 text-left">
@@ -67,19 +67,19 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-[300px] m-auto md:w-full lg:w-full">
       <div className="detailsDiv w-[340px] flex flex-col gap-[50px]  text-center items-center text-center mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
-        <div className="delivery lg:text-left flex flex-col items-start md:items-center gap-[20px] lg: mt-[-90px]">
-            <h1 className="text-5xl font-bold text-subColor lg:text-left lg:mr-[270px] md:text-center">Delivery</h1>
-            <h3 className="text-headingColor leading-7  lg:leading-9 text-sm md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h3>
+        <div className="delivery  lg:text-left flex flex-col items-start md:items-center gap-[20px] lg: mt-[-90px]">
+            <h1 className="text-5xl ml-[10px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor lg:text-left lg:mr-[270px] md:text-center">Delivery</h1>
+            <h4 className="text-headingColor leading-6  lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h4>
         </div>
         <div className="contact  flex flex-col items-start lg:items-start md:items-center gap-[20px] text-left mt-[0px] lg:mt-[-70px]">
-            <h1 className="text-5xl font-bold text-subColor text-center lg:text-left md:text-center">Consultation</h1>
-            <h3 className="text-headingColor leading-7 lg:leading-9 text-sm md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we value the importance of understanding<br/> your unique needs and goals.<br/>During our consultations, we take the time to<br/> listen, analyze, and propose<br/> the best strategies to achieve your desired outcomes.</h3>
+            <h1 className="text-5xl ml-[10px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-center lg:text-left md:text-center">Consultation</h1>
+            <h3 className="text-headingColor leading-6 lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we value the importance of understanding<br/> your unique needs and goals.<br/>During our consultations, we take the time to<br/> listen, analyze, and propose<br/> the best strategies to achieve your desired outcomes.</h3>
         </div>
         <div className="support text-left flex flex-col items-start lg:items-start md:items-center gap-[20px]">
-            <h1 className="text-5xl font-bold text-subColor text-center lg:text-left md:text-center">Support</h1>
-            <h3 className="text-headingColor leading-7  lg:leading-9 text-sm md:text-lg lg:text-lg md:text-center text-left lg:text-left">Please get in touch with us by phone or email<br/> if you need assistance or if you are experiencing<br/>  any issues with the website.<br/> We are happy to help you 24/7.</h3>
+            <h1 className="text-5xl  md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-left lg:text-left md:text-center">Support</h1>
+            <h3 className="text-headingColor leading-6  lg:leading-9 font-bold  text-xs md:text-lg lg:text-lg md:text-center text-left lg:text-left">Please get in touch with us by phone or email<br/> if you need assistance or if you are facing<br/>  any issues with the website.<br/> We are happy to help you 24/7.</h3>
             <div className="flex flex-col items-start md:items-center lg:items-start">
             <p className="flex gap-[10px]   pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
             <p className="flex gap-[10px]  pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faEnvelope}/> | webxsolutions12@gmail.com</p>
