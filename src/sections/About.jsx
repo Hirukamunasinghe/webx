@@ -67,19 +67,21 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center w-[300px] m-auto md:w-full lg:w-full">
-      <div className="detailsDiv w-[340px] flex flex-col gap-[50px]  text-center items-center text-center mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
+      <div className="flex flex-col items-center">
+      <div className="detailsDiv w-[310px] flex flex-col gap-[50px]  text-center items-center  mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
         <div className="delivery  lg:text-left flex flex-col items-start md:items-center gap-[20px] lg: mt-[-90px]">
             <h1 className="text-5xl ml-[10px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor lg:text-left lg:mr-[270px] md:text-center">Delivery</h1>
-            <h4 className="text-headingColor leading-6  lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h4>
+            <h4 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6  lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h4>
         </div>
         <div className="contact  flex flex-col items-start lg:items-start md:items-center gap-[20px] text-left mt-[0px] lg:mt-[-70px]">
             <h1 className="text-5xl ml-[10px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-center lg:text-left md:text-center">Consultation</h1>
-            <h3 className="text-headingColor leading-6 lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we value the importance of understanding<br/> your unique needs and goals.<br/>During our consultations, we take the time to<br/> listen, analyze, and propose<br/> the best strategies to achieve your desired outcomes.</h3>
+            <div className="m-auto">
+            <h3 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6 lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we value the importance of understanding<br/> your unique needs and goals.<br/>During our consultations, we take the time to<br/> listen, analyze, and propose<br/> the best strategies to achieve your desired goals.</h3>
+            </div>
         </div>
         <div className="support text-left flex flex-col items-start lg:items-start md:items-center gap-[20px]">
             <h1 className="text-5xl  md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-left lg:text-left md:text-center">Support</h1>
-            <h3 className="text-headingColor leading-6  lg:leading-9 font-bold  text-xs md:text-lg lg:text-lg md:text-center text-left lg:text-left">Please get in touch with us by phone or email<br/> if you need assistance or if you are facing<br/>  any issues with the website.<br/> We are happy to help you 24/7.</h3>
+            <h3 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6  lg:leading-9 font-bold  text-xs md:text-lg lg:text-lg md:text-center text-left lg:text-left">Please get in touch with us by phone or email<br/> if you need assistance or if you are facing<br/>  any issues with the website.<br/> We are happy to help you 24/7.</h3>
             <div className="flex flex-col items-start md:items-center lg:items-start">
             <p className="flex gap-[10px]   pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 76 219 3001</p>
             <p className="flex gap-[10px]  pb-[20px]  text-headingColor font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faEnvelope}/> | webxsolutions12@gmail.com</p>
