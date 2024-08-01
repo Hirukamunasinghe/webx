@@ -74,7 +74,7 @@ const About = () => {
             <h4 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6  lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h4>
         </div>
         <div className="contact  flex flex-col items-start lg:items-start md:items-center gap-[20px] text-left mt-[0px] lg:mt-[-70px]">
-            <h1 className="text-5xl ml-[7px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-center lg:text-left md:text-center">Consultation</h1>
+            <h1 className="text-5xl ml-[4px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor text-center lg:text-left md:text-center">Consultation</h1>
             <div className="m-auto">
             <h3 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6 lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we value the importance of understanding<br/> your unique needs and goals.<br/>During our consultations, we take the time to<br/> listen, analyze, and propose<br/> the best strategies to achieve your desired goals.</h3>
             </div>
