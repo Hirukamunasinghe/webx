@@ -68,7 +68,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col items-center">
-      <div className="detailsDiv w-[310px] flex flex-col gap-[50px]  text-center items-center  mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
+      <div className="detailsDiv w-[310px] md:w-[500px] flex flex-col gap-[50px]  text-center items-center  mt-[150px]  lg:mt-[80px] pb-[20px] lg:flex lg:w-full lg:mr-[85px] lg:justify-center lg:flex-row lg:gap-[40px] ml-[0px] lg:ml-[120px]">
         <div className="delivery  lg:text-left flex flex-col items-start md:items-center gap-[20px] lg: mt-[-90px]">
             <h1 className="text-5xl ml-[10px] md:ml-[0px] lg:ml-[0px] font-bold text-subColor lg:text-left lg:mr-[270px] md:text-center">Delivery</h1>
             <h4 className="text-headingColor border-2 rounded-md p-[10px] w-[280px] md:border-0 md:p-[0px] md:w-full lg:border-0 lg:p-[0px] lg:w-full leading-6  lg:leading-9 font-bold text-xs md:text-lg lg:text-lg text-left lg:text-left md:text-center">At WebX, we prioritize timely and efficient delivery<br/> of all our web solutions. Our team ensures that every<br/> project is completed within the agreed timeframe<br/> without compromising on quality.</h4>
