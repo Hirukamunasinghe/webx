@@ -7,7 +7,7 @@ import withIntersectionObserver from "../components/withIntersectionObserver";
 import { Link } from "react-router-dom";
 
 const AnimatedDesign = withIntersectionObserver(() => (
-  <div className="design flex flex-col lg:flex-row   gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[40px] w-[350px] md:w-[700px] lg:w-[1500px] ">
+  <div className="design flex flex-col lg:flex-row   gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[40px] w-[320px] md:w-[700px] lg:w-[1500px] ">
     <div className="design-image">
       <img
         src={Design}
@@ -41,7 +41,7 @@ const AnimatedDesign = withIntersectionObserver(() => (
 ));
 
 const AnimatedDevelopment = withIntersectionObserver(() => (
-  <div className="develop flex flex-col lg:flex-row-reverse justify-center gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] md:w-[700px] lg:w-[1500px]">
+  <div className="develop flex flex-col lg:flex-row-reverse justify-center gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[320px] md:w-[700px] lg:w-[1500px]">
     <div className="design-image">
       <img
         src={Development}
@@ -73,7 +73,7 @@ const AnimatedDevelopment = withIntersectionObserver(() => (
 ));
 
 const AnimatedPortfolio = withIntersectionObserver(() => (
-  <div className="portfolio flex flex-col lg:flex-row justify-center gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[350px] md:w-[700px] lg:w-[1500px]">
+  <div className="portfolio flex flex-col lg:flex-row justify-center gap-5 lg:gap-[100px] border-2 rounded-md border-customPurple p-5 lg:p-[50px] w-[320px] md:w-[700px] lg:w-[1500px]">
     <div className="design-image">
       <img
         src={Portfolio}
